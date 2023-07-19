@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<XMI xmi.version = "1.1" xmlns:UML="href://org.omg/UML/1.3" timestamp = "Thu May 04 10:46:40 2017">
+<XMI.header>
+  <XMI.documentation>
+    <XMI.owner></XMI.owner>
+    <XMI.contact></XMI.contact>
+    <XMI.exporter>StarUML.XMI-Addin</XMI.exporter>
+    <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    <XMI.notice></XMI.notice>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = "UML" xmi.version = "1.3"/>
+ </XMI.header>
+<XMI.content>
+<UML:Model xmi.id="UMLProject.1">
+  <UML:Namespace.ownedElement>
+    <UML:Model xmi.id="UMLModel.2" name="Use Case Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Actor xmi.id="UMLActor.3" name="Admin" visibility="public" isSpecification="false" namespace="UMLModel.2" clientDependency="UMLDependency.15 UMLDependency.16 UMLDependency.17 UMLDependency.18" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.13"/>
+        <UML:Actor xmi.id="UMLActor.4" name="User" visibility="public" isSpecification="false" namespace="UMLModel.2" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:UseCase xmi.id="UMLUseCase.5" name="" visibility="public" isSpecification="false" namespace="UMLModel.2" supplierDependency="UMLDependency.17" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:UseCase xmi.id="UMLUseCase.6" name="Kim, Jeongil" visibility="public" isSpecification="false" namespace="UMLModel.2" supplierDependency="UMLDependency.16 UMLDependency.18" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:UseCase xmi.id="UMLUseCase.7" name="Kim, Keehyun" visibility="public" isSpecification="false" namespace="UMLModel.2" supplierDependency="UMLDependency.15" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.14"/>
+        <UML:UseCase xmi.id="UMLUseCase.8" name="Kum, Deukkyu" visibility="public" isSpecification="false" namespace="UMLModel.2" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:UseCase xmi.id="UMLUseCase.9" name="Lee, Jangwoo" visibility="public" isSpecification="false" namespace="UMLModel.2" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:UseCase xmi.id="UMLUseCase.10" name="Lee, Minkyu" visibility="public" isSpecification="false" namespace="UMLModel.2" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:UseCase xmi.id="UMLUseCase.11" name="Lim, Heejin" visibility="public" isSpecification="false" namespace="UMLModel.2" isRoot="false" isLeaf="false" isAbstract="false"/>
+        <UML:Association xmi.id="UMLAssociation.12" name="" visibility="public" isSpecification="false" namespace="UMLModel.2">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.13" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.12" type="UMLActor.3"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.14" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.12" type="UMLUseCase.7"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Dependency xmi.id="UMLDependency.15" name="" visibility="public" isSpecification="false" namespace="UMLModel.2" client="UMLActor.3" supplier="UMLUseCase.7"/>
+        <UML:Dependency xmi.id="UMLDependency.16" name="" visibility="public" isSpecification="false" namespace="UMLModel.2" client="UMLActor.3" supplier="UMLUseCase.6"/>
+        <UML:Dependency xmi.id="UMLDependency.17" name="" visibility="public" isSpecification="false" namespace="UMLModel.2" client="UMLActor.3" supplier="UMLUseCase.5"/>
+        <UML:Dependency xmi.id="UMLDependency.18" name="" visibility="public" isSpecification="false" namespace="UMLModel.2" client="UMLActor.3" supplier="UMLUseCase.6"/>
+        <UML:Stereotype xmi.id="X.23" name="useCaseModel" extendedElement="UMLModel.2"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.19" name="Analysis Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.24" name="analysisModel" extendedElement="UMLModel.19"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.20" name="Design Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.25" name="designModel" extendedElement="UMLModel.20"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.21" name="Implementation Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.26" name="implementationModel" extendedElement="UMLModel.21"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.22" name="Deployment Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.27" name="deploymentModel" extendedElement="UMLModel.22"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </UML:Namespace.ownedElement>
+</UML:Model>
+</XMI.content>
+</XMI>
